@@ -47,6 +47,6 @@ end
 
 fprintf('the nearest point is %d',max);
 %%
-prtemps=input('enter a maximum celsius value between -16 and 20')
-    
+prtemps=input('enter a maximum celsius value between -16 and 20');
+%hello from the other side :)    
     
