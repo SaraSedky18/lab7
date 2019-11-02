@@ -61,6 +61,25 @@ while c<=prtemps
     f=f+5;
 end
 %%
-% n=input('enter a number : ');
-n=5;
-for i=1
+n=input('enter a number : ');
+
+for i=1:n
+    for j=1:n
+        r=j*i;
+        fprintf('%6d', r );
+    end
+fprintf('\n');
+end
+%%
+n=input('enter a number : ');
+
+for i=1:n
+    for j=1:i
+        r=j*i;
+        fprintf('%6d', r );
+    end
+fprintf('\n');
+end
+%%
+
+        
