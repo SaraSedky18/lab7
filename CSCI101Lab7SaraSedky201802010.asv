@@ -63,4 +63,3 @@ end
 %%
 % n=input('enter a number : ');
 n=5;
-for i=1
